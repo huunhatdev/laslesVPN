@@ -1,0 +1,355 @@
+.btn.btn-select {
+    width: 176px;
+    height: 45px;
+}
+
+.active {
+    border-color: #F53838;
+    background-color: #F53838;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0px 20px 40px rgba(245, 56, 56, 0.35);
+}
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.line1-title {
+    width: 555px;
+    display: inline-block;
+    position: relative;
+}
+
+.line1-title>h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    color: #0B132A;
+}
+
+.line1-title>h1>strong {
+    font-weight: 700;
+}
+
+.line1-title>p {
+    color: #4F5665;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.line1-title>p>strong {
+    font-weight: 700;
+}
+
+.btn-getstarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    border: 1px solid #F53838;
+    border-radius: 10px;
+    background-color: #F53838;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0px 20px 40px rgba(245, 56, 56, 0.35);
+}
+
+.line1-banner {
+    transform: translateX(67px);
+}
+
+
+/* CSS line 2 */
+
+.line-2 {
+    width: auto;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line-height {
+    width: 2px;
+    height: 125.57px;
+    background-color: #EEEFF2;
+    float: right;
+}
+
+.line-2-value {
+    display: flex;
+}
+
+.line-2-value>img {
+    margin-right: 36.5px;
+    height: 55px;
+    width: 55px;
+}
+
+.value-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.value {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.name {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* CSS line 3 */
+
+.line-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.line-3>img {
+    transform: translateY(-46px);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    max-width: 384px;
+    color: #0B132A;
+}
+
+.line-3-content>p {
+    max-width: 428px;
+    margin-bottom: 20px;
+}
+
+.v {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.v>img {
+    margin-right: 10px;
+}
+
+
+/* CSS header middle */
+
+.header-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header-middle>h2 {
+    margin-bottom: 20px;
+}
+
+.header-middle>p {
+    max-width: 555px;
+}
+
+
+/* CSS line 4 - card */
+
+.line-4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.card {
+    width: 330px;
+    height: 760px;
+    background-color: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card:nth-child(2) {
+    margin: 0 50px;
+}
+
+.card>.box {
+    position: absolute;
+    top: 79px
+}
+
+.card>h3 {
+    position: absolute;
+    top: 275px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0B132A;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option>img {
+    margin-right: 20px;
+}
+
+.card>.options {
+    position: absolute;
+    top: 335px
+}
+
+.card>.btn.btn-select {
+    position: absolute;
+    bottom: 50px;
+}
+
+.card>.price {
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    bottom: 115px;
+}
+
+.card>.price>strong {
+    color: #0B132A;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.header-middle.huge-global {
+    margin-bottom: 0;
+}
+
+.huge-global>p {
+    margin-bottom: 155px;
+}
+
+.huge-global-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.spon-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/* CSS line card-profile */
+
+.card-profiles {
+    display: flex;
+    margin-bottom: 60px;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+}
+
+.card-profile {
+    width: 400px;
+    height: 230px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 50px;
+}
+
+.profile-header {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile {
+    display: flex;
+    /* justify-content: flex-start; */
+    position: absolute;
+    left: 30px;
+}
+
+.profile>img {
+    width: 50px;
+    height: 50px;
+    margin-right: 21px;
+}
+
+.name-country {
+    display: flex;
+    flex-direction: column;
+}
+
+.rate {
+    position: absolute;
+    right: 30px;
+}
+
+.introduce {
+    position: absolute;
+    top: 100px;
+    width: 340px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+
+/* carousel */
+
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 174px;
+}
+
+.car-btn {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #F53838;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-next {
+    background-color: #F53838;
+    margin-left: 20px;
+}

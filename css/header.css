@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo>img {
+    width: 0.5;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #4F5665;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+}
+
+.auth>a {
+    text-decoration: none;
+}
+
+.signin {
+    font-weight: 500;
+    color: #0B132A;
+    margin-right: 30px;
+}
